@@ -1,12 +1,12 @@
-*{
+* {
     font-family: "Rimouski";
 }
 
-body{
+body {
     background-color: #150f3c;
 }
 
-.container{
+.container {
     width: 350px;    
     background-color: #FFF;
     
@@ -17,13 +17,13 @@ body{
     padding-bottom : 80px;
 }
 
-.app-title{
+.app-title {
     width: 330px;
     height: 50px;
     border-radius: 10px 10px 0 0;
 }
 
-.app-title p{
+.app-title p {
     text-align: center;
     padding: 15px;
     margin: 3 auto;
@@ -31,12 +31,12 @@ body{
     color: #293251;
 }
 
-.notification{
+.notification {
     background-color: #f8d7da;
     display: none;
 }
 
-.notification p{
+.notification p {
     color: #721c24;
     font-size: 1.2em;
     margin: 0;
@@ -44,28 +44,28 @@ body{
     padding: 10px 0;
 }
 
-.weather-container{
+.weather-container {
     width: 300px;
     height: 260px;
     background-color: #F4F9FF;
 }
 
-.weather-icon{
+.weather-icon {
     width: 300px;
     height: 128px;
 }
 
-.weather-icon img{
+.weather-icon img {
     display: block;
     margin: 0 auto;
 }
 
-.temperature-value{
+.temperature-value {
     width: 300px;
     height:60px;
 }
 
-.temperature-value p{
+.temperature-value p {
     padding: 0;
     margin: 0;
     color: #293251;
@@ -74,24 +74,24 @@ body{
     cursor: pointer;
 }
 
-.temperature-value p:hover{
+.temperature-value p:hover {
     background-color: powderblue;
   transition: background-color .5s;
     
 }
 
-.temperature-value span{
+.temperature-value span {
     color: #293255;
     font-size: 0.5em;
 }
 
-.temperature-description{
+.temperature-description {
     background-color: aqua;
     color: #721c24;
     
 }
 
-.temperature-description p{
+.temperature-description p {
     padding: 8px;
     margin: 0;
     color: #293251;
@@ -99,11 +99,11 @@ body{
     font-size: 1.2em;
 }
 
-.location{
+.location {
     color: black;
 }
 
-.location p{
+.location p {
     margin: 0;
     padding: 0;
     color: #293251;
