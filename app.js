@@ -1,26 +1,22 @@
-// Tutorial by http://youtube.com/CodeExplained
 // api key : 82005d27a116c2880c8f0fcb866998a0
 
-// SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
 const descElement = document.querySelector(".temperature-description p");
 const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
-// App data
 const weather = {};
 
 weather.temperature = {
     unit : "celsius"
 }
 
-// APP CONSTS AND VARS
+//initialising kelvin variable for te prature
 const KELVIN = 273;
-// API KEY
 const key = "82005d27a116c2880c8f0fcb866998a0";
 
-// CHECK IF BROWSER SUPPORTS GEOLOCATION
+// GEOLOCATION
 if('geolocation' in navigator){
     navigator.geolocation.getCurrentPosition(setPosition, showError);
 }else{
@@ -28,7 +24,7 @@ if('geolocation' in navigator){
     notificationElement.innerHTML = "<p>Browser doesn't Support Geolocation</p>";
 }
 
-// SET USER'S POSITION
+// Set users current position 
 function setPosition(position){
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
@@ -71,7 +67,7 @@ function displayWeather(){
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
 }
 
-// C to F conversion
+// Celcius to Farenheit equation
 function celsiusToFahrenheit(temperature){
     return (temperature * 9/5) + 32;
 }

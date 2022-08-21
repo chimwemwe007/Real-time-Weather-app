@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #293251;
+    background-color: #150f3c;
 }
 
 .container{
@@ -13,12 +13,12 @@ body{
     display: block;
     margin: 0 auto;
     
-    border-radius: 10px;
-    padding-bottom : 50px;
+    border-radius: 20px;
+    padding-bottom : 80px;
 }
 
 .app-title{
-    width: 300px;
+    width: 330px;
     height: 50px;
     border-radius: 10px 10px 0 0;
 }
@@ -26,7 +26,7 @@ body{
 .app-title p{
     text-align: center;
     padding: 15px;
-    margin: 0 auto;
+    margin: 3 auto;
     font-size: 1.2em;
     color: #293251;
 }
@@ -75,15 +75,19 @@ body{
 }
 
 .temperature-value p:hover{
+    background-color: powderblue;
+  transition: background-color .5s;
     
 }
 
 .temperature-value span{
-    color: #293251;
+    color: #293255;
     font-size: 0.5em;
 }
 
 .temperature-description{
+    background-color: aqua;
+    color: #721c24;
     
 }
 
@@ -96,7 +100,7 @@ body{
 }
 
 .location{
-    
+    color: black;
 }
 
 .location p{
@@ -106,6 +110,3 @@ body{
     text-align: center;
     font-size: 0.8em;
 }
-
-
-
