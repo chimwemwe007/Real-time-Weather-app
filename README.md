@@ -4,6 +4,9 @@
 
 This project is aweather application that gets information about the weather from an exterm=nal API and displays it for the user. It also pinpoints the users location using a geolocator so they are able to know the weather details of any place they may be. 
 
+## Acknowledgemets
+- Thanks to https://openweathermap.org/api for the free Weather API that was used in this project
+
 ## Getting Started
 
 - Clone the repo.
@@ -26,7 +29,7 @@ This project is aweather application that gets information about the weather fro
 👤 **Chimwemwe Mkandawire**
 
 - GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
-
+- LinkedIn: [@chimwemwe Mkandawire](https://www.linkedin.com/in/chimwemwe-mkandawire)
 
 ## 🤝 Contributing
 
@@ -41,6 +44,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Miroverse Inc
+- 
 
 ## 📝 License
 
