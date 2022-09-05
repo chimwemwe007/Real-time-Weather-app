@@ -26,7 +26,7 @@ This project is aweather application that gets information about the weather fro
 
 ## Authors
 
-👤 **Chimwemwe Mkandawire**
+👤 ** Chimwemwe Mkandawire **
 
 - GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
 - LinkedIn: [@chimwemwe Mkandawire](https://www.linkedin.com/in/chimwemwe-mkandawire)
